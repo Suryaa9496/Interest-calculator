@@ -20,7 +20,7 @@ function CompoundInterest(principalAmount, annualInterest, time) {
     });
 }
 
-module.exports = { calculateSimpleInterest, calculateCompoundInterest };
+module.exports = { SimpleInterest, CompoundInterest };
 
 (async () => {
     try {
